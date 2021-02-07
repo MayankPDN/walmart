@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WalmartTestCases.TestPersonalSettingWalmart">
+      <class name="com.WalmartTestCases.TestCartWalmart">
         <methods>
-          <include name="setup"/>
-          <include name="verifysignIn_Test1"/>
+          <include name="satup"/>
+          <include name="GoToSkinCarePagenumberOfItems_Test6"/>
         </methods>
-      </class> <!-- com.WalmartTestCases.TestPersonalSettingWalmart -->
+      </class> <!-- com.WalmartTestCases.TestCartWalmart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,6 +1,9 @@
 package com.WalmartTestCases;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -51,11 +54,6 @@ public class TestHomePageWalmart extends BaseClassWalmart {
 	@Test
 	public void GoToSuperHeroPage_Test5() {
 		superHeroPage= homePageWalmart.GoToToysPage();
-		}
-	@Test
-	public void verifyHeader_Test6() {
-		
-		
 	}
 	
 }
