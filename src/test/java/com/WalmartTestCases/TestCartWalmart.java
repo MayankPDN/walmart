@@ -47,20 +47,20 @@ public class TestCartWalmart extends BaseClassWalmart{
 		String Units=driver.findElement(By.cssSelector(".css-nk32ej > a:nth-child(1) > span")).getText();
 		Assert.assertEquals(Units, "1");
 		}
-	@Test
-	public void GoToSkinCarePagenumberOfItems_Test6() {
-		skinCarePage= homePageWalmart.GoToSkinCarePage();
-		driver.findElement(By.xpath("//article[@title='Skin care tools']")).click();
-		List<WebElement> Items=driver.findElements(By.tagName("button"));
-		List<WebElement> ItemsLink=driver.findElements(By.tagName("a"));
-		System.out.println(Items.size());
-		System.out.println(ItemsLink.size());
-	 for(int i=0; i<ItemsLink.size(); i++) { //loop to get all number of link
-		 String itemslisted =ItemsLink.get(i).getText();//  this is to make it  String value
-		System.out.println(itemslisted);// this is to print all links form website.
-
-				 System.out.println(ItemsLink.size());
-	 	}
-	}
+//	@Test
+//	public void GoToSkinCarePagenumberOfItems_Test6() {
+//		skinCarePage= homePageWalmart.GoToSkinCarePage();
+//		driver.findElement(By.xpath("//article[@title='Skin care tools']")).click();
+//		List<WebElement> Items=driver.findElements(By.tagName("button"));
+//		List<WebElement> ItemsLink=driver.findElements(By.tagName("a"));
+//		System.out.println(Items.size());
+//		System.out.println(ItemsLink.size());
+//	 for(int i=0; i<ItemsLink.size(); i++) { //loop to get all number of link
+//		 String itemslisted =ItemsLink.get(i).getText();//  this is to make it  String value
+//		System.out.println(itemslisted);// this is to print all links form website.
+//
+//				 System.out.println(ItemsLink.size());
+//	 	}
+//	}
 		
 }
