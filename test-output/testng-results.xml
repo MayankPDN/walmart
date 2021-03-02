@@ -1,58 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="0" failed="1" skipped="0">
+<testng-results ignored="17" total="18" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-07T13:25:25 GMT-05:00" name="Default suite" finished-at="2021-02-07T13:25:52 GMT-05:00" duration-ms="27036">
+  <suite started-at="2021-02-24T17:15:57 GMT-05:00" name="Default suite" finished-at="2021-02-24T17:16:08 GMT-05:00" duration-ms="10767">
     <groups>
     </groups>
-    <test started-at="2021-02-07T13:25:25 GMT-05:00" name="Default test" finished-at="2021-02-07T13:25:52 GMT-05:00" duration-ms="27036">
-      <class name="com.WalmartTestCases.TestCartWalmart">
-        <test-method is-config="true" signature="satup()[pri:0, instance:com.WalmartTestCases.TestCartWalmart@4ddced80]" started-at="2021-02-07T13:25:25 GMT-05:00" name="satup" finished-at="2021-02-07T13:25:37 GMT-05:00" duration-ms="12152" status="PASS">
+    <test started-at="2021-02-24T17:15:57 GMT-05:00" name="Default test" finished-at="2021-02-24T17:16:08 GMT-05:00" duration-ms="10767">
+      <class name="com.WalmartTestCases.TestRegistrationWalmart">
+        <test-method is-config="true" signature="satup()[pri:0, instance:com.WalmartTestCases.TestRegistrationWalmart@36c88a32]" started-at="2021-02-24T17:15:57 GMT-05:00" name="satup" finished-at="2021-02-24T17:16:07 GMT-05:00" duration-ms="10359" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- satup -->
-        <test-method signature="GoToSkinCarePagenumberOfItems_Test6()[pri:0, instance:com.WalmartTestCases.TestCartWalmart@4ddced80]" started-at="2021-02-07T13:25:37 GMT-05:00" name="GoToSkinCarePagenumberOfItems_Test6" finished-at="2021-02-07T13:25:52 GMT-05:00" duration-ms="14822" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
+        <test-method signature="registrationFirstName_Test3()[pri:0, instance:com.WalmartTestCases.TestRegistrationWalmart@36c88a32]" started-at="2021-02-24T17:16:07 GMT-05:00" name="registrationFirstName_Test3" finished-at="2021-02-24T17:16:08 GMT-05:00" duration-ms="149" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[stale element reference: element is not attached to the page document
-  (Session info: chrome=88.0.4324.146)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+              <![CDATA[Cannot locate an element using xpath=//a[@class='css-1xh2uh0 evkjyb00']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PREYAL', ip: '192.168.25.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Pritzs\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 056655809fe8edb1d9188c7d2b23e6a9]]>
+Driver info: driver.version: EventFiringWebDriver]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=88.0.4324.146)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//a[@class='css-1xh2uh0 evkjyb00']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'PREYAL', ip: '192.168.25.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Pritzs\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63006}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 056655809fe8edb1d9188c7d2b23e6a9
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:166)
+Driver info: driver.version: EventFiringWebDriver
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
-at com.sun.proxy.$Proxy14.getText(Unknown Source)
-at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:463)
-at com.WalmartTestCases.TestCartWalmart.GoToSkinCarePagenumberOfItems_Test6(TestCartWalmart.java:59)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy9.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy13.click(Unknown Source)
+at com.WalmartPages.HomePageWalmart.GoToRegistrationPage(HomePageWalmart.java:101)
+at com.WalmartTestCases.TestRegistrationWalmart.registrationFirstName_Test3(TestRegistrationWalmart.java:47)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,11 +72,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoToSkinCarePagenumberOfItems_Test6 -->
-      </class> <!-- com.WalmartTestCases.TestCartWalmart -->
+        </test-method> <!-- registrationFirstName_Test3 -->
+      </class> <!-- com.WalmartTestCases.TestRegistrationWalmart -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
