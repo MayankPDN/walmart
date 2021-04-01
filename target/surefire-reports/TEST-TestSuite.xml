@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="44" failures="8" name="TestSuite" time="1,503.825" errors="0" skipped="34">
+<testsuite tests="52" failures="4" name="TestSuite" time="409.57" errors="0" skipped="48">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="walmart"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/walmart/8/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/walmart/12/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -12,7 +12,7 @@
     <property name="POM_ARTIFACTID" value="Wlamart_Project"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_281\lib\resources.jar;C:\Program Files\Java\jre1.8.0_281\lib\rt.jar;C:\Program Files\Java\jre1.8.0_281\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_281\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_281\lib\jce.jar;C:\Program Files\Java\jre1.8.0_281\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_281\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_281\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -27,8 +27,8 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="walmart"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/walmart/8/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#8"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/walmart/12/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#12"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_281\bin"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_281"/>
@@ -38,7 +38,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_281\lib\endorsed"/>
-    <property name="BUILD_ID" value="8"/>
+    <property name="BUILD_ID" value="12"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -52,10 +52,10 @@
     <property name="java.home" value="C:\Program Files\Java\jre1.8.0_281"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/walmart/8/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/walmart/12/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/walmart/8/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/walmart/12/display/redirect?page=artifacts"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.281-b09"/>
     <property name="AMDAPPSDKROOT" value="c:\Program Files (x86)\AMD APP\"/>
@@ -64,7 +64,7 @@
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="FP_NO_HOST_CHECK" value="NO"/>
-    <property name="JAVA_HOME" value="C:\Program Files\Java\jre1.8.0_281"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_281"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
     <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
@@ -76,7 +76,7 @@
     <property name="POM_GROUPID" value="Walmart"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-walmart-8"/>
+    <property name="BUILD_TAG" value="jenkins-walmart-12"/>
     <property name="JENKINS_SERVER_COOKIE" value="167f3cef8d61c732"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -84,14 +84,14 @@
     <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mayankMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\platform-tools;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\build-tools;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\tools;C:\Program Files \Android\Android Studio\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\tools\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_281\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mayankMaven/bin;C:\Program Files\Common Files\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\platform-tools;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\build-tools;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\tools;C:\Program Files \Android\Android Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\tools\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mayankMaven"/>
     <property name="java.class.path" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mayankMaven\boot\plexus-classworlds-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mayankMaven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mayankMaven C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 59269"/>
-    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-15.0.1\bin;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\platform-tools;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\build-tools;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\tools;C:\Program Files \Android\Android Studio\bin;C:\Program Files\Java\jre1.8.0_281\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\tools\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mayankMaven C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 52450"/>
+    <property name="Path" value="C:\Program Files\Common Files\Oracle\Java\javapath;c:\Program Files (x86)\Intel\iCLS Client\;c:\Program Files\Intel\iCLS Client\;c:\Program Files (x86)\AMD APP\bin\x86_64;c:\Program Files (x86)\AMD APP\bin\x86;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\platform-tools;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\build-tools;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\tools;C:\Program Files \Android\Android Studio\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\Mayank Gohil\AppData\Local\Android\Sdk\tools\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
@@ -104,7 +104,7 @@
     <property name="HUDSON_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
     <property name="PATH+MAVEN" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mayankMaven/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/walmart/8/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/walmart/12/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -117,7 +117,7 @@
 "/>
     <property name="MAVEN_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\mayankMaven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="8"/>
+    <property name="BUILD_NUMBER" value="12"/>
     <property name="BASE" value="C:\Program Files\Jenkins"/>
     <property name="ANDROID_HOME" value="C:\Users\Mayank Gohil\AppData\Local\Android\Sdk"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
@@ -135,25 +135,20 @@
     <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase classname="com.WalmartTestCases.TestCartWalmart" name="GoToSkinCarePagenumberOfItems_Test6" time="34.555"/>
-  <testcase classname="com.WalmartTestCases.TestCartWalmart" name="ShoppingCart_Test1" time="41.363">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot; //article[@title=&apos;Skin care tools&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+  <testcase classname="com.WalmartTestCases.TestCartWalmart" name="satup" time="100.423">
+    <failure message="timeout: Timed out receiving message from renderer: 21.177
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:59488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c80319faf3d3e15289db2888e372a32f
-*** Element info: {Using=xpath, value= //article[@title=&apos;Skin care tools&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot; //article[@title=&apos;Skin care tools&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:52525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5197e3199026a5b51ef5ed3615b58215" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 21.177
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:59488}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: c80319faf3d3e15289db2888e372a32f
-*** Element info: {Using=xpath, value= //article[@title=&apos;Skin care tools&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:52525}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5197e3199026a5b51ef5ed3615b58215
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -164,207 +159,91 @@ Session ID: c80319faf3d3e15289db2888e372a32f
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.WalmartPages.SkinCarePage.AddSkincareItemToCart(SkinCarePage.java:35)
-	at com.WalmartTestCases.TestCartWalmart.ShoppingCart_Test1(TestCartWalmart.java:43)
+	at com.sun.proxy.$Proxy4.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at baseclass.BaseClassWalmart.initialization(BaseClassWalmart.java:60)
+	at com.WalmartTestCases.TestCartWalmart.satup(TestCartWalmart.java:35)
 </failure>
-    <system-out>Before navigating to: &apos;https://www.walmart.ca/en&apos;
-Navigated to:&apos;https://www.walmart.ca/en&apos;
-Trying to find Element By : By.xpath: //a[@id=&apos;departments-button&apos;]
-Found Element By : By.xpath: //a[@id=&apos;departments-button&apos;]
-Trying to find Element By : By.xpath: //a[contains(text(),&apos;Health, Beauty &amp; Pharmacy&apos;)]
-Found Element By : By.xpath: //a[contains(text(),&apos;Health, Beauty &amp; Pharmacy&apos;)]
-Trying to find Element By : By.xpath: //a[contains(text(),&apos;Skin Care&apos;)]
-Found Element By : By.xpath: //a[contains(text(),&apos;Skin Care&apos;)]
-Trying to find Element By : By.xpath: //a[contains(text(),&apos;Skin Care&apos;)]
-Found Element By : By.xpath: //a[contains(text(),&apos;Skin Care&apos;)]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (c80319faf3d3e15289db2888e372a32f)] -&gt; xpath: //a[contains(text(),&apos;Skin Care&apos;)]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (c80319faf3d3e15289db2888e372a32f)] -&gt; xpath: //a[contains(text(),&apos;Skin Care&apos;)]]
-Trying to find Element By : By.xpath:  //article[@title=&apos;Skin care tools&apos;]
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1517365b
+Before navigating to: &apos;https://www.walmart.ca/en&apos;
 </system-out>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 49054
+    <system-err>Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 29675
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1614202854.051][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-Feb 24, 2021 4:40:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 14, 2021 3:31:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+[1615750332.889][SEVERE]: Timed out receiving message from renderer: 21.177
+[1615750333.374][SEVERE]: Timed out receiving message from renderer: 21.177
 </system-err>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestHomePageWalmart" name="GoToSkinCarePage_Test4" time="11.861"/>
-  <testcase classname="com.WalmartTestCases.TestHomePageWalmart" name="setup" time="615.907">
-    <failure message="session not created
-from timeout: Timed out receiving message from renderer: 600.000
-  (Session info: chrome=88.0.4324.182)
+  <testcase classname="com.WalmartTestCases.TestCartWalmart" name="GoToSkinCarePagenumberOfItems_Test6" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestCartWalmart" name="satup" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestCartWalmart" name="ShoppingCart_Test1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestHomePageWalmart" name="setup" time="88.656">
+    <failure message="timeout: Timed out receiving message from renderer: 14.520
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x005BC0C3+3326147]
-	Ordinal0 [0x004A0851+2164817]
-	Ordinal0 [0x00327298+619160]
-	Ordinal0 [0x0031B17F+569727]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x003238B1+604337]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x00321D2C+597292]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x0031FE62+589410]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x0031F075+585845]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x00316776+550774]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x00319F13+565011]
-	Ordinal0 [0x00319D07+564487]
-	Ordinal0 [0x003282C0+623296]
-	Ordinal0 [0x002C6BDD+224221]
-	Ordinal0 [0x002C5CAC+220332]
-	Ordinal0 [0x002C189B+202907]
-	Ordinal0 [0x002A3DF4+81396]
-	Ordinal0 [0x002A4DEE+85486]
-	Ordinal0 [0x002A4D79+85369]
-	Ordinal0 [0x004B85DC+2262492]
-	GetHandleVerifier [0x00742874+1487204]
-	GetHandleVerifier [0x007423CD+1486013]
-	GetHandleVerifier [0x0074A368+1518680]
-	GetHandleVerifier [0x00742F4E+1488958]
-	Ordinal0 [0x004AED0D+2223373]
-	Ordinal0 [0x004BA12B+2269483]
-	Ordinal0 [0x004BA26F+2269807]
-	Ordinal0 [0x004CECB8+2354360]
-	BaseThreadInitThunk [0x75516359+25]
-	RtlGetAppContainerNamedObjectPath [0x77D38944+228]
-	RtlGetAppContainerNamedObjectPath [0x77D38914+180]
-" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created
-from timeout: Timed out receiving message from renderer: 600.000
-  (Session info: chrome=88.0.4324.182)
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:52634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 543c5dba19a0aeea064c18e78468946e" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 14.520
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x005BC0C3+3326147]
-	Ordinal0 [0x004A0851+2164817]
-	Ordinal0 [0x00327298+619160]
-	Ordinal0 [0x0031B17F+569727]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x003238B1+604337]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x00321D2C+597292]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x0031FE62+589410]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x0031F075+585845]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x00316776+550774]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x00319F13+565011]
-	Ordinal0 [0x00319D07+564487]
-	Ordinal0 [0x003282C0+623296]
-	Ordinal0 [0x002C6BDD+224221]
-	Ordinal0 [0x002C5CAC+220332]
-	Ordinal0 [0x002C189B+202907]
-	Ordinal0 [0x002A3DF4+81396]
-	Ordinal0 [0x002A4DEE+85486]
-	Ordinal0 [0x002A4D79+85369]
-	Ordinal0 [0x004B85DC+2262492]
-	GetHandleVerifier [0x00742874+1487204]
-	GetHandleVerifier [0x007423CD+1486013]
-	GetHandleVerifier [0x0074A368+1518680]
-	GetHandleVerifier [0x00742F4E+1488958]
-	Ordinal0 [0x004AED0D+2223373]
-	Ordinal0 [0x004BA12B+2269483]
-	Ordinal0 [0x004BA26F+2269807]
-	Ordinal0 [0x004CECB8+2354360]
-	BaseThreadInitThunk [0x75516359+25]
-	RtlGetAppContainerNamedObjectPath [0x77D38944+228]
-	RtlGetAppContainerNamedObjectPath [0x77D38914+180]
-
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:52634}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 543c5dba19a0aeea064c18e78468946e
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at baseclass.BaseClassWalmart.initialization(BaseClassWalmart.java:44)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy4.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at baseclass.BaseClassWalmart.initialization(BaseClassWalmart.java:60)
 	at com.WalmartTestCases.TestHomePageWalmart.setup(TestHomePageWalmart.java:34)
 </failure>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 27806
+    <system-out>Before navigating to: &apos;https://www.walmart.ca/en&apos;
+</system-out>
+    <system-err>Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 22599
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1614202935.225][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-[1614203537.550][SEVERE]: Timed out receiving message from renderer: 600.000
+Mar 14, 2021 3:32:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1615750421.646][SEVERE]: Timed out receiving message from renderer: 14.520
+[1615750422.174][SEVERE]: Timed out receiving message from renderer: 14.520
 </system-err>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestHomePageWalmart" name="GoToSkinCarePage_Test4" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestHomePageWalmart" name="setup" time="0.001">
+    <skipped/>
   </testcase>
   <testcase classname="com.WalmartTestCases.TestHomePageWalmart" name="GoToSuperHeroPage_Test5" time="0">
     <skipped/>
@@ -387,24 +266,20 @@ ChromeDriver was started successfully.
   <testcase classname="com.WalmartTestCases.TestHomePageWalmart" name="verifysignIn_Test2" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestPersonalSettingWalmart" name="verifysignIn_Test1" time="45.582">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Personal Settings&apos;)]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+  <testcase classname="com.WalmartTestCases.TestPersonalSettingWalmart" name="setup" time="109.414">
+    <failure message="timeout: Timed out receiving message from renderer: 17.696
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 740292a5d4308031135987fcd5078e05
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Personal Settings&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Personal Settings&apos;)]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:52734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e1a77488213f8ca23a3e517bce39fa7" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 17.696
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 740292a5d4308031135987fcd5078e05
-*** Element info: {Using=xpath, value=//a[contains(text(),&apos;Personal Settings&apos;)]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:52734}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e1a77488213f8ca23a3e517bce39fa7
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -415,69 +290,46 @@ Session ID: 740292a5d4308031135987fcd5078e05
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.WalmartPages.HomePageWalmart.GoToPersonalSettingPage(HomePageWalmart.java:120)
-	at com.WalmartTestCases.TestPersonalSettingWalmart.verifysignIn_Test1(TestPersonalSettingWalmart.java:33)
+	at com.sun.proxy.$Proxy4.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at baseclass.BaseClassWalmart.initialization(BaseClassWalmart.java:60)
+	at com.WalmartTestCases.TestPersonalSettingWalmart.setup(TestPersonalSettingWalmart.java:25)
 </failure>
     <system-out>Before navigating to: &apos;https://www.walmart.ca/en&apos;
-Navigated to:&apos;https://www.walmart.ca/en&apos;
-Trying to find Element By : By.xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]
-Found Element By : By.xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (740292a5d4308031135987fcd5078e05)] -&gt; xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (740292a5d4308031135987fcd5078e05)] -&gt; xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]]
-Trying to find Element By : By.xpath: //*[@id=&quot;username&quot;]
-Found Element By : By.xpath: //*[@id=&quot;username&quot;]
-Trying to find Element By : By.xpath: //*[@id=&quot;password&quot;]
-Found Element By : By.xpath: //*[@id=&quot;password&quot;]
-Trying to find Element By : By.xpath: //button[@class=&apos;css-vfxkzw edzik9p0&apos;]
-Found Element By : By.xpath: //button[@class=&apos;css-vfxkzw edzik9p0&apos;]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (740292a5d4308031135987fcd5078e05)] -&gt; xpath: //button[@class=&apos;css-vfxkzw edzik9p0&apos;]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (740292a5d4308031135987fcd5078e05)] -&gt; xpath: //button[@class=&apos;css-vfxkzw edzik9p0&apos;]]
-Trying to find Element By : By.xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]
-Found Element By : By.xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]
-Trying to click on: [[ChromeDriver: chrome on WINDOWS (740292a5d4308031135987fcd5078e05)] -&gt; xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]]
-Clicked on: [[ChromeDriver: chrome on WINDOWS (740292a5d4308031135987fcd5078e05)] -&gt; xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]]
-Trying to find Element By : By.xpath: //a[contains(text(),&apos;Personal Settings&apos;)]
 </system-out>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 45376
+    <system-err>Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 45999
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1614203539.534][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-Feb 24, 2021 4:52:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Mar 14, 2021 3:34:46 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
+[1615750531.102][SEVERE]: Timed out receiving message from renderer: 17.696
+[1615750531.595][SEVERE]: Timed out receiving message from renderer: 17.696
 </system-err>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationFirstName_Test2" time="30.068">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+  <testcase classname="com.WalmartTestCases.TestPersonalSettingWalmart" name="verifysignIn_Test1" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="111.061">
+    <failure message="timeout: Timed out receiving message from renderer: 17.403
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e67690d7d7ddee73f8e54e0dca1fbf1a
-*** Element info: {Using=xpath, value=//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:52835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffb1a32725917664311d403fc452979c" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 17.403
+  (Session info: chrome=89.0.4389.82)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:63352}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e67690d7d7ddee73f8e54e0dca1fbf1a
-*** Element info: {Using=xpath, value=//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.82, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:52835}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffb1a32725917664311d403fc452979c
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -488,377 +340,63 @@ Session ID: e67690d7d7ddee73f8e54e0dca1fbf1a
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.WalmartPages.HomePageWalmart.GoToRegistrationPage(HomePageWalmart.java:101)
-	at com.WalmartTestCases.TestRegistrationWalmart.registrationFirstName_Test2(TestRegistrationWalmart.java:39)
-</failure>
-    <system-out>Before navigating to: &apos;https://www.walmart.ca/en&apos;
-Navigated to:&apos;https://www.walmart.ca/en&apos;
-Trying to find Element By : By.xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]
-</system-out>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 42814
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1614203598.921][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-Feb 24, 2021 4:53:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationFirstName_Test3" time="30.072">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:63666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4904d99526fd0eca4ebef2bf42b1ef2c
-*** Element info: {Using=xpath, value=//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, goog:chromeOptions: {debuggerAddress: localhost:63666}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4904d99526fd0eca4ebef2bf42b1ef2c
-*** Element info: {Using=xpath, value=//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.WalmartPages.HomePageWalmart.GoToRegistrationPage(HomePageWalmart.java:101)
-	at com.WalmartTestCases.TestRegistrationWalmart.registrationFirstName_Test3(TestRegistrationWalmart.java:47)
-</failure>
-    <system-out>Before navigating to: &apos;https://www.walmart.ca/en&apos;
-Navigated to:&apos;https://www.walmart.ca/en&apos;
-Trying to find Element By : By.xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]
-</system-out>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 32620
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1614203639.041][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-Feb 24, 2021 4:54:01 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationFirstName_Test4" time="30.103">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:63963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 369e680170231f8ce1bc9284d20b9856
-*** Element info: {Using=xpath, value=//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, goog:chromeOptions: {debuggerAddress: localhost:63963}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 369e680170231f8ce1bc9284d20b9856
-*** Element info: {Using=xpath, value=//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.WalmartPages.HomePageWalmart.GoToRegistrationPage(HomePageWalmart.java:101)
-	at com.WalmartTestCases.TestRegistrationWalmart.registrationFirstName_Test4(TestRegistrationWalmart.java:55)
-</failure>
-    <system-out>Before navigating to: &apos;https://www.walmart.ca/en&apos;
-Navigated to:&apos;https://www.walmart.ca/en&apos;
-Trying to find Element By : By.xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]
-</system-out>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 46878
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1614203678.178][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-Feb 24, 2021 4:54:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationFirstName_Test5" time="30.079">
-    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 848e2fdd495c7ac72e920f08605455c9
-*** Element info: {Using=xpath, value=//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]&quot;}
-  (Session info: chrome=88.0.4324.182)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.182, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:64305}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 848e2fdd495c7ac72e920f08605455c9
-*** Element info: {Using=xpath, value=//a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy4.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy8.click(Unknown Source)
-	at com.WalmartPages.HomePageWalmart.GoToRegistrationPage(HomePageWalmart.java:101)
-	at com.WalmartTestCases.TestRegistrationWalmart.registrationFirstName_Test5(TestRegistrationWalmart.java:63)
-</failure>
-    <system-out>Before navigating to: &apos;https://www.walmart.ca/en&apos;
-Navigated to:&apos;https://www.walmart.ca/en&apos;
-Trying to find Element By : By.xpath: //a[@class=&apos;css-1xh2uh0 evkjyb00&apos;]
-</system-out>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 19667
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-[1614203721.721][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-Feb 24, 2021 4:55:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</system-err>
-  </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="634.233">
-    <failure message="session not created
-from timeout: Timed out receiving message from renderer: 600.000
-  (Session info: chrome=88.0.4324.182)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x005BC0C3+3326147]
-	Ordinal0 [0x004A0851+2164817]
-	Ordinal0 [0x00327298+619160]
-	Ordinal0 [0x0031B17F+569727]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x003238B1+604337]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x00321D2C+597292]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x0031FE62+589410]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x0031F075+585845]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x00316776+550774]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x00319F13+565011]
-	Ordinal0 [0x00319D07+564487]
-	Ordinal0 [0x003282C0+623296]
-	Ordinal0 [0x002C6BDD+224221]
-	Ordinal0 [0x002C5CAC+220332]
-	Ordinal0 [0x002C189B+202907]
-	Ordinal0 [0x002A3DF4+81396]
-	Ordinal0 [0x002A4DEE+85486]
-	Ordinal0 [0x002A4D79+85369]
-	Ordinal0 [0x004B85DC+2262492]
-	GetHandleVerifier [0x00742874+1487204]
-	GetHandleVerifier [0x007423CD+1486013]
-	GetHandleVerifier [0x0074A368+1518680]
-	GetHandleVerifier [0x00742F4E+1488958]
-	Ordinal0 [0x004AED0D+2223373]
-	Ordinal0 [0x004BA12B+2269483]
-	Ordinal0 [0x004BA26F+2269807]
-	Ordinal0 [0x004CECB8+2354360]
-	BaseThreadInitThunk [0x75516359+25]
-	RtlGetAppContainerNamedObjectPath [0x77D38944+228]
-	RtlGetAppContainerNamedObjectPath [0x77D38914+180]
-" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created
-from timeout: Timed out receiving message from renderer: 600.000
-  (Session info: chrome=88.0.4324.182)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;PREYAL&apos;, ip: &apos;192.168.25.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
-Driver info: driver.version: ChromeDriver
-remote stacktrace: Backtrace:
-	Ordinal0 [0x005BC0C3+3326147]
-	Ordinal0 [0x004A0851+2164817]
-	Ordinal0 [0x00327298+619160]
-	Ordinal0 [0x0031B17F+569727]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x003238B1+604337]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x00321D2C+597292]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x0031FE62+589410]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x0031F075+585845]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x0031AEA2+568994]
-	Ordinal0 [0x0031A421+566305]
-	Ordinal0 [0x0031A815+567317]
-	Ordinal0 [0x0031A135+565557]
-	Ordinal0 [0x00316776+550774]
-	Ordinal0 [0x0031A0F1+565489]
-	Ordinal0 [0x00319F13+565011]
-	Ordinal0 [0x00319D07+564487]
-	Ordinal0 [0x003282C0+623296]
-	Ordinal0 [0x002C6BDD+224221]
-	Ordinal0 [0x002C5CAC+220332]
-	Ordinal0 [0x002C189B+202907]
-	Ordinal0 [0x002A3DF4+81396]
-	Ordinal0 [0x002A4DEE+85486]
-	Ordinal0 [0x002A4D79+85369]
-	Ordinal0 [0x004B85DC+2262492]
-	GetHandleVerifier [0x00742874+1487204]
-	GetHandleVerifier [0x007423CD+1486013]
-	GetHandleVerifier [0x0074A368+1518680]
-	GetHandleVerifier [0x00742F4E+1488958]
-	Ordinal0 [0x004AED0D+2223373]
-	Ordinal0 [0x004BA12B+2269483]
-	Ordinal0 [0x004BA26F+2269807]
-	Ordinal0 [0x004CECB8+2354360]
-	BaseThreadInitThunk [0x75516359+25]
-	RtlGetAppContainerNamedObjectPath [0x77D38944+228]
-	RtlGetAppContainerNamedObjectPath [0x77D38914+180]
-
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
-	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
-	at baseclass.BaseClassWalmart.initialization(BaseClassWalmart.java:44)
+	at com.sun.proxy.$Proxy4.get(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.get(EventFiringWebDriver.java:165)
+	at baseclass.BaseClassWalmart.initialization(BaseClassWalmart.java:60)
 	at com.WalmartTestCases.TestRegistrationWalmart.satup(TestRegistrationWalmart.java:27)
 </failure>
-    <system-err>Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 1820
+    <system-out>Before navigating to: &apos;https://www.walmart.ca/en&apos;
+</system-out>
+    <system-err>Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 27288
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-[1614203761.702][WARNING]: This version of ChromeDriver has not been tested with Chrome version 88.
-[1614204363.977][SEVERE]: Timed out receiving message from renderer: 600.000
+Mar 14, 2021 3:36:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1615750640.989][SEVERE]: Timed out receiving message from renderer: 17.403
+[1615750642.456][SEVERE]: Timed out receiving message from renderer: 17.403
 </system-err>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationFirstName_Test2" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationFirstName_Test3" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationFirstName_Test4" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationFirstName_Test5" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
+    <skipped/>
   </testcase>
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationFirstName_Test6" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0.001">
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
     <skipped/>
   </testcase>
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationLastName_Test10" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0.002">
     <skipped/>
   </testcase>
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationLastName_Test11" time="0">
@@ -870,13 +408,13 @@ ChromeDriver was started successfully.
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationLastName_Test8" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationLastName_Test9" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0.001">
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
     <skipped/>
   </testcase>
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationNullFirstLastName_Test16" time="0">
@@ -888,13 +426,13 @@ ChromeDriver was started successfully.
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationPasswordStrangth_Test19" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0.009">
     <skipped/>
   </testcase>
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationPhoneNumber_Test12" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationPhoneNumber_Test13" time="0">
@@ -921,10 +459,10 @@ ChromeDriver was started successfully.
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
     <skipped/>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationTermsOfUseCheckBox_Test18" time="0">
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registrationTermsOfUseCheckBox_Test18" time="0.001">
     <skipped/>
   </testcase>
-  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0">
+  <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="satup" time="0.001">
     <skipped/>
   </testcase>
   <testcase classname="com.WalmartTestCases.TestRegistrationWalmart" name="registration_Test1" time="0">

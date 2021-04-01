@@ -30,6 +30,7 @@
         <methods>
           <include name="satup"/>
           <include name="ShoppingCart_Test1"/>
+          <include name="GoToSkinCarePagenumberOfItems_Test6"/>
         </methods>
       </class> <!-- com.WalmartTestCases.TestCartWalmart -->
       <class name="com.WalmartTestCases.TestPersonalSettingWalmart">
@@ -44,6 +45,7 @@
           <include name="VerifyWalmartLogo_Test1"/>
           <include name="GotoregistrationPage_Test3"/>
           <include name="verifysignIn_Test2"/>
+          <include name="GoToSkinCarePage_Test4"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.WalmartTestCases.TestHomePageWalmart -->
