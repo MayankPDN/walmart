@@ -32,6 +32,7 @@ public class TestPersonalSettingWalmart extends BaseClassWalmart {
 		homePageWalmart = homePageWalmart.SigninWithValidData();
 		homePageWalmart.GoToPersonalSettingPage();
 		personalSettingPage.EditPersonalInfo();
+		System.out.println("Test purpose");
 	}
 
 }
